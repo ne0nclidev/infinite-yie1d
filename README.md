@@ -1,21 +1,23 @@
-# infinite-yie1d
+WARNING: This tool is only for educational and penetration purposes only! Only use this tool when you have explicit permission from the other party to conduct security tests. Any illegal use of this tool is the user's fault, and not the developer.
 
-Command line for brute force password attacking.
+infinite yie1d is a tool to perform a brute force password attack with a specific username. This tool is similar to another tool Hydra. Infinite yie1d can use Google login pages, SSH, HTTP(S), and Telnet to use to brute force.
 
-Usage (after install):
-
-```bash
-# install locally
-pip install .
-
-# or editable during development
-pip install -e .
-
-# install from GitHub
-pip install git+https://github.com/ne0nclidev/infinite-yie1d.git
-
-# then run the CLI
-infinite-yie1d --echo hello
+## Installation
+Clone this repository
 ```
+git clone https://github.com/ne0nclidev/infinite-yie1d
+```
+Then cd into the folder
+```zsh
+cd infinite-yie1d
+```
+## After installation
 
-Replace this README with documentation for your tool and any warnings/legal disclaimers you need.
+Install locally
+```zsh
+pip install .
+```
+or editable during development
+```zsh
+pip install -e .
+```
